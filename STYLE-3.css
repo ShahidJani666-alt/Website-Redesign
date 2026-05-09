@@ -324,7 +324,7 @@ body {
     /* General section styling */
      /* Our Projects Section */
     .projects-intro {
-      background: url('mobile-laptop.jpg') no-repeat center center/cover;
+      background: url('images/mobile-laptop.jpg') no-repeat center center/cover;
        position: relative;
       color: white;
       padding: 80px 20px;
@@ -384,7 +384,7 @@ body {
     }
 
     .project-section {
-      background: url(mobile-laptop.jpg) no-repeat center center/cover;
+      background: url(images/mobile-laptop.jpg) no-repeat center center/cover;
       display: flex; /* Image + text side by side */
       align-items: center;
       padding: 60px 10%;
@@ -695,7 +695,7 @@ body {
 }
 /* Services Section */
 .services {
-  background-image: url(Black-Background-1.jpg);
+  background-image: url(images/Black-Background-1.jpg);
   background-repeat: no-repeat; /* no repeat */
   background-size: cover;      /* cover full area */
 
@@ -773,16 +773,16 @@ body {
 
 /* Example: different images for each service box */
 .service-box:nth-child(1)::before {
-  background: url("web\ development.1.jpg") no-repeat center/cover;
+  background: url("images/web\ development.1.jpg") no-repeat center/cover;
 }
 .service-box:nth-child(2)::before {
-  background: url("Mobile-App.jpg") no-repeat center/cover;
+  background: url("images/Mobile-App.jpg") no-repeat center/cover;
 }
 .service-box:nth-child(3)::before {
-  background: url("digital\ marketing.jpg") no-repeat center/cover;
+  background: url("images/digital\ marketing.jpg") no-repeat center/cover;
 }
 .service-box:nth-child(4)::before {
-  background: url("cloud\ development.jpg") no-repeat center/cover;
+  background: url("images/cloud\ development.jpg") no-repeat center/cover;
 }
 
 /* Show image clearly on hover */
@@ -833,7 +833,7 @@ body {
   width: 100%;
   height: 100dvh;               /* Full viewport height (no scrollbar bug) */
 
-  background: url("Black-Background-1.jpg");
+  background: url("images/Black-Background-1.jpg");
   background-repeat: no-repeat;
   color: white;
 
@@ -885,7 +885,7 @@ hr {
 }
 /* Contact Section */
 .contact {
-  background-image: url(Black-Background-1.jpg);
+  background-image: url(images/Black-Background-1.jpg);
   background-repeat: no-repeat; /* no repeat */
   background-size: cover;      /* cover full area */
   background-position: center; /* center the image */
